@@ -24,4 +24,4 @@ Refering at our last configuration, we can take these next steps to implement re
 
 2 - Update the provider.tf file by adding the Remote backend configuration code.
 
-# wordpress-on-AWS
+# Wordpress Website Deployment with TF

@@ -9,10 +9,10 @@ terraform {
 
   # Configure the Remote Bakend on AWS S3
   backend "s3" {
-    bucket         = "wordpress-aws-adamab"
+    bucket         = "tonyo987650-S3-wordpress"
     key            = "vpc_network.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "wordpress-remote-state-db"
+    dynamodb_table = "remote-state-dynamodb-wordpress"
   }
 
 }
